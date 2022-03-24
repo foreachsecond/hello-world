@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class WebController {
     @GetMapping("/hello")
     public String greeting() {
-        return "Hello World!";
+        return "Hello World! This is an updated version";
     }
 }
